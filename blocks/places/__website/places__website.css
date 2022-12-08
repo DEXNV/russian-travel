@@ -1,0 +1,10 @@
+.places__website {
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: auto 0 48px;
+    max-width: 456px;
+    max-height: min-content;
+}

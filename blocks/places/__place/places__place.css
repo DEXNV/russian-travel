@@ -1,0 +1,11 @@
+.places__place {
+    display: grid;
+    grid-template: repeat(4, min-content) / repeat(2, auto);
+    column-gap: 40px;
+    max-height: min-content;
+    margin: 90px 0 0;
+}
+
+.places__place:first-of-type {
+    margin: 0;
+}
