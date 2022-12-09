@@ -1,11 +1,15 @@
 @font-face {
   font-family: Inter;
-  src: url(./Inter-Regular.ttf); /* Путь к файлу со шрифтом */
-  font-weight: 400;
+  src: local("Inter-SemiBold.woff2"),
+      url(Inter-ExtraBold.woff2) format("woff2"),
+      url(Inter-ExtraBold.woff) format("woff");
+  font-weight: 900;
  }
 
  @font-face {
   font-family: Inter;
-  src: url(./Inter-SemiBold.ttf); /* Путь к файлу со шрифтом */
-  font-weight: 600;
+  src: local("Inter-Regular.woff2"),
+      url(Inter-Regular.woff2) format("woff2"),
+      url(Inter-Regular.woff) format("woff");
+  font-weight: 400;
  }
