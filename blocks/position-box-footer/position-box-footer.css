@@ -1,0 +1,14 @@
+.position-box-footer {
+    display: block;
+    margin: 0;
+    float: none;
+    max-width: auto;
+}
+
+@media screen and (max-width: 670px){
+    .position-box-footer {
+        display: flex;
+        margin: 0 5% 0;
+        float: left;
+    }
+}

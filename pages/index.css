@@ -3,7 +3,7 @@
 @import url(../blocks/link/link.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/position-box/position-box.css);
+@import url(../blocks/position-box-intro/position-box-intro.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__langs/header__langs.css);
@@ -37,4 +37,6 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/position-box-footer/position-box-footer.css);

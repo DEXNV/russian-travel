@@ -9,3 +9,16 @@
     text-align: right;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 670px){
+    .header__lang-link {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+}
+

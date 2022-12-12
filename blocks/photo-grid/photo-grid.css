@@ -22,3 +22,11 @@
         margin: 0 24px 88px;
     }
 } 
+
+@media screen and (max-width: 670px){
+    .photo-grid {
+        grid-template: repeat(12, 1fr) / 1fr;
+        gap: 12px;
+        margin: 0 5% 64px;
+    }
+} 

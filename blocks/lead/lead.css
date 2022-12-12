@@ -13,3 +13,15 @@
     max-width: 928px;
     }
 }
+
+@media screen and (max-width: 768px){
+    .lead {
+        margin: 0 auto 88px;
+    }
+}
+
+@media screen and (max-width: 670px){
+    .lead {
+        margin: 0 auto 64px;
+    }
+}

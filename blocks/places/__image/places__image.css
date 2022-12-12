@@ -15,3 +15,11 @@
         max-width: 340px;
     }
 }
+
+@media screen and (max-width: 670px){
+    .places__image {
+        max-width: 100%;
+        margin: 0 auto 32px;
+        grid-row: 3/6;
+    }
+}

@@ -6,4 +6,17 @@
     line-height: 22px;
     text-decoration-line: underline;
     color: #FFFFFF;
+    margin-left: 0;
+}
+
+@media screen and (max-width: 670px){
+    .places__link {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+    }
 }

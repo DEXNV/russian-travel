@@ -3,7 +3,7 @@
     grid-template: repeat(4, min-content) / repeat(2, auto);
     column-gap: 40px;
     max-height: min-content;
-    margin: 90px 0 0;
+    margin: 80px 0 0;
 }
 
 .places__place:first-of-type {
@@ -22,5 +22,14 @@
         margin: 73px 0 0;
         max-width: 720px;
         column-gap: 28px;
+    }
+}
+
+@media screen and (max-width: 670px){
+    .places__place {
+        grid-template: repeat(8, min-content) / auto;
+        column-gap: 40px;
+        max-height: min-content;
+        margin: 50px 0 0;
     }
 }

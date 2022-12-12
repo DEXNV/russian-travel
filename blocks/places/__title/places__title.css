@@ -7,6 +7,15 @@
     color: #FFFFFF;
     margin: 0 0 48px;
     max-width: 460px;
+    word-wrap: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 1024px){
+    .places__title {
+        max-width: 440px;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -18,5 +27,17 @@
         line-height: 46px;
         color: #FFFFFF;
         max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 670px){
+    .places__title {
+        margin: 0 5% 32px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+        color: #FFFFFF;
     }
 }

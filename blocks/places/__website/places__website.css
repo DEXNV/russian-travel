@@ -8,3 +8,10 @@
     max-width: 456px;
     max-height: min-content;
 }
+
+@media screen and (max-width: 670px){
+    .places__website {
+        margin: 0 16px 32px;
+        width: auto;
+    }
+}
