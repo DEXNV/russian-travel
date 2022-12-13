@@ -12,13 +12,9 @@
 
 @media screen and (max-width: 670px){
     .header__lang-link {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
+        margin: 14px 0 8px 18px;
         font-size: 18px;
         line-height: 20px;
-        text-align: right;
-        color: #FFFFFF;
     }
 }
 

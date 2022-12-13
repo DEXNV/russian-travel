@@ -14,23 +14,13 @@
 
 @media screen and (max-width: 768px){
     .places__paragraph {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
-        line-height: 163%;
         margin: 25px 0 0;
     }
 }
 
 @media screen and (max-width: 670px){
     .places__paragraph {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 163%;
-        color: #FFFFFF;
         margin: 25px 5% 0;
         width: auto;
     }

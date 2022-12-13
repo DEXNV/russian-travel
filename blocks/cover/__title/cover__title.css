@@ -14,14 +14,17 @@
 
 @media screen and (max-width: 670px){
     .cover__title {
+        margin: auto auto 0;
+        font-size: 48px;
+        line-height: 42px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .cover__title {
         margin: auto 5% 0;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 900;
         font-size: 32px;
         line-height: 35px;
-        text-align: center;
-        color: #FFFFFF;
     }
 }
 
