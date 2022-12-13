@@ -7,10 +7,17 @@
     font-size: 16px;
     line-height: 163%;
     color: #FFFFFF;
+    word-wrap: normal;
 }
 
 @media screen and (max-width: 768px){
     .intro__text {
-        max-width: 100%;
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .intro__text {
+        max-width: 288px;
     }
 }

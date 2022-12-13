@@ -1,5 +1,4 @@
-.header__lang-link_text-type_underline {
-    
+.header__lang-link_type_selected {
     text-decoration: underline;
     justify-self: right;
 }

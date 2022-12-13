@@ -2,7 +2,6 @@
     display: grid;
     grid-template: repeat(4, min-content) / repeat(2, auto);
     column-gap: 40px;
-    max-height: min-content;
     margin: 80px 0 0;
 }
 
